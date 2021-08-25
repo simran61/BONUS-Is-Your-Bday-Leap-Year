@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root{
+    --primary-color: #f8c471;
+    --secondary-color: #ffe8b1;
+    --dark: #fd9533;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+.heading{
+    color: var(--dark); 
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.intro{
+    padding: 0 1rem;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    width: 60%;
+    height: 1.5rem;
+    border: 1.5px solid var(--dark);
+    padding: 0.5rem;
+    background-color: var(--secondary-color);
+}
+
+button{
+    padding: 0.5rem;
+    width: 100px;
+    background-color: var(--dark);
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+ul{
+    padding-inline-start: 0px;
+    margin: 0.5rem auto 0 auto;
+}
+
+li{
+    display: inline;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+a:hover{
+    color: var(--dark);
+}
+
+a{
+    color: white;
+}
+
+.footHeading{
+    margin: 0;
+    font-size: 1.2rem;
+    color: white;
+}

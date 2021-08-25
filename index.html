@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simran | Leap Year</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="brand"><a style="text-decoration: none;" href="/">SimranCodes</a></div>
+        <div><a href="https://github.com/simran61"><i class="fab fa-github"></i></a></div>
+    </nav>
+
+    <header class="container">
+        <div class="heading">Were you born in a Leap Year?</div>
+
+        <div class="initial">
+            <img src="images/hello1.gif" alt="">
+            <p class="intro">Hey buddy, hope you are doing well. Please enter your name to start.</p>
+            <input id="name" type="text" placeholder="First name"><br>
+            <button id="btn" class="continueBtn">Continue</button>
+        </div>
+
+        <div class="final" style="display: none;">
+            <p id="welcome" class="intro"></p>
+            <p class="intro">Enter your birthdate and we will tell if you were born in a leap year !!</p>
+            <img style="width: 200px;" src="images/happy1.gif" alt=""><br>
+            <input id="birthDate" type="date"><br>
+            <button id="btn" class="checkBtn">Check</button>
+        </div>
+
+        <div class="leap" style="display: none;">
+            <img style="width: 300px;" src="images/leap.png" alt="">
+        </div>
+
+        <div class="notleap" style="display: none;">
+            <img style="width: 300px;" src="images/notleap.png" alt="">
+        </div>
+
+    </header>
+
+    <footer>
+        <h3 class="footHeading">Connect with me</h3>
+        <ul class="">
+            <li class="">
+                <a class="" target="_blank" href="https://github.com/simran61"><i class="fab fa-github"></i></a>
+            </li>
+            <li class="">
+                <a class="" target="_blank" href="https://www.linkedin.com/in/simran-gangwani-b93a441b2/"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li class="">
+                <a class="" target="_blank" href="https://twitter.com/SimranGangwani3"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="">
+                <a class="" target="_blank" href="https://www.instagram.com/simran_wb65/"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
